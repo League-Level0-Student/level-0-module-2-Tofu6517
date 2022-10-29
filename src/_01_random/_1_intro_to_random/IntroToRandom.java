@@ -29,7 +29,7 @@ public class IntroToRandom {
 		// Usually we want to limit the numbers to a range in our program. 		
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
-
+number=ran.nextInt(100);
 			// number = ran.nextInt(_____);
 			System.out.println(number);
 			
@@ -48,13 +48,17 @@ public class IntroToRandom {
 			// Uncomment the line of code below, and replace (_____)  with   (highest value - lowest value + 1)
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
-			
+			number=ran.nextInt(75-25+1);
 			// number = ran.nextInt(_____) + <lowest value>;
 			System.out.println(number);
 			
 		}
-		// This time, all the values printed should be between 25 and 75.
-
+	
+		for (int i=0; i<5; i++) {
+		number=ran.nextInt(88-222+1)+ -222;
+		System.out.println(number);
+			
+		}
 		
 		/*************  Random integers with an upper and lower (negative) limit  *************/
 		

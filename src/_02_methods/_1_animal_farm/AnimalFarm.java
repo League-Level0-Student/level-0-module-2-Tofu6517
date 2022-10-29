@@ -4,6 +4,8 @@
 package _02_methods._1_animal_farm;
 
 import java.io.File;
+import java.util.Random;
+
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.ImageIcon;
@@ -27,8 +29,23 @@ public class AnimalFarm {
 
 		/* 1. Ask the user which animal they want, then see and hear 
 		 *    the animal they chose using one of the methods below.
-		*/			 
-			
+		*/			
+		int number = 0;
+		Random ran = new Random();
+		
+		String input = JOptionPane.showInputDialog("");
+	
+			if(number==0) {
+				JOptionPane.showMessageDialog(null,"");
+			}
+
+			if(number==1) {
+				JOptionPane.showMessageDialog(null,"");
+			}
+
+			if(number==2) {
+				JOptionPane.showMessageDialog(null,"");
+			}
 		/* 2. Make it so that the user can keep entering new animals. */
 
 	}
