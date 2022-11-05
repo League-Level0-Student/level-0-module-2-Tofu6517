@@ -31,22 +31,30 @@ public class AnimalFarm {
 		 *    the animal they chose using one of the methods below.
 		*/			
 		int number = 0;
-		Random ran = new Random();
-		
-		String input = JOptionPane.showInputDialog("");
+		Random ran = new Random(2);
 	
-			if(number==0) {
-				JOptionPane.showMessageDialog(null,"");
+		while(true) {
+		String input = JOptionPane.showInputDialog("what animal do you want to see");
+	
+			if(input. equals("cat")) {
+				JOptionPane.showInputDialog(catIcon);
+
 			}
 
-			if(number==1) {
-				JOptionPane.showMessageDialog(null,"");
+			if(input. equals("cow")) {
+				JOptionPane.showInputDialog(cowIcon);
+				
 			}
 
-			if(number==2) {
-				JOptionPane.showMessageDialog(null,"");
-			}
-		/* 2. Make it so that the user can keep entering new animals. */
+			if(input. equals("duck")) {
+				JOptionPane.showInputDialog(duckIcon);
+			
+				}
+		}
+			
+			
+			
+			/* 2. Make it so that the user can keep entering new animals. */
 
 	}
 
