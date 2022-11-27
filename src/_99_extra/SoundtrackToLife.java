@@ -14,10 +14,10 @@ public class SoundtrackToLife {
 		
 		// 2. Their answer is stored in the userMood variable. Print it out.
 		int input = userMood;
-		System.out.println(input);
+		String input1=System.out.println(input);
 
 		// 3. If they are in a stressed mood, use the playVideo method to play a calming song from YouTube.
-		if(input. equals("Mad")) {
+		if(input1. equals("Mad")) {
 			
 		}
 
