@@ -13,12 +13,11 @@ public class SoundtrackToLife {
 				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Sad", "Happy", "Mad" }, null);
 		
 		// 2. Their answer is stored in the userMood variable. Print it out.
-		int input = userMood;
-		String input1=System.out.println(input);
+	System.out.println(userMood);
 
 		// 3. If they are in a stressed mood, use the playVideo method to play a calming song from YouTube.
-		if(input1. equals("Mad")) {
-			
+		if(userMood==2) {
+			playVideo("https://www.youtube.com/watch?v=y6Sxv-sUYtM");
 		}
 
 		
